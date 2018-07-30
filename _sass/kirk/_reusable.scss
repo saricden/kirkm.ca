@@ -1,0 +1,21 @@
+.clear:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.centerblock {
+  width: 100%;
+  max-width: $content-width;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: $outer-padding;
+}
+
+.centerblock.sm {
+  max-width: $content-width-sm;
+}
+
+.text-center {
+  text-align: center;
+}
