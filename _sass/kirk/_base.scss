@@ -18,8 +18,22 @@ h1 {
 
 h2 {
   font-size: 32px;
+  margin-top: $item-gutter * 4;
+  margin-bottom: $item-gutter * 2;
+  padding-left: $item-gutter;
+  padding-right: $item-gutter;
+}
+
+h2:first-of-type {
+  margin-top: 0;
 }
 
 h3 {
   font-size: 22px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
