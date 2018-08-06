@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+isHome: true
 ---
 <header id="header-banner" class="secondary">
   <div class="centerblock sm text-center">
@@ -27,7 +28,7 @@ layout: default
     <div class="col service">
       <div class="img" style="background-image:url({{ "/assets/product-scaling.svg" | relative_url }});"></div>
       <h3>Product Scaling</h3>
-      <p>As your userbase grows, so too must your product. I can help you tweak your software software such that it will be able to scale from a small community with a handful of users, all the way up to a community of hundreds of thousands or more.</p>
+      <p>As your userbase grows, so too must your product. I can help you build your software stack such that it will be able to scale from a small community with a handful of users, all the way up to a community of hundreds of thousands or more.</p>
     </div>
   </div>
 
@@ -198,8 +199,36 @@ layout: default
     <p>Hi there! My name's Kirk and I've been passionately developing software for over 10 years. I absolutely love the creative potential software development provides. It's like Lego for adults, if you can dream it up, you can almost always build it.</p>
     <p>I write code for work, but also for fun. If you want to see the home of my open source work and other passion projects (including games, apps, and websites) please visit: <a href="//saricden.com" target="_blank">saricden.com</a>.</p>
     <p>In addition to coding, I also love skateboarding and enjoy drawing, reading a good book, or playing guitar. I grew up in Victoria, BC, Canada and wouldn't trade my hometown for anywhere else in the world!</p>
-    <p>Really my favourite thing in the world to do is to create things. It doesn't matter if I'm hacking together an app, trying to paint a picture, or write a story. As long as my mind is engaged in creative-mode, I feel like I'm on top of the world.</p>
+    <p>Really my favourite thing in the world to do is to create things. It doesn't matter if I'm hacking together an app, trying to paint a picture, or writing a story. As long as my mind is engaged in creative-mode, I feel like I'm on top of the world.</p>
     <p>If you want to get in touch about anything, business or otherwise, feel free to <a href="" data-scrollto="contact_me">contact me</a>.</p>
   </div>
+
+  <h2>Get in Touch</h2>
+  <div id="message-received" class="message success" style="display:none;">
+    Your message was successfully delivered! Thank you!
+  </div>
+  <form action="https://formspree.io/worker.kirk@gmail.com" method="POST">
+    <div class="control half">
+      <label for="contact_name">Your Name</label>
+      <input type="text" id="contact_name" name="emailer_name" />
+    </div>
+    <div class="control half">
+      <label for="contact_email">Your Email</label>
+      <input type="email" id="contact_email" name="_replyto" />
+    </div>
+    <div class="control">
+      <label for="contact_subject">Subject</label>
+      <input type="text" id="contact_subject" name="_subject" />
+    </div>
+    <div class="control">
+      <label for="contact_message">Message</label>
+      <textarea id="contact_message" name="message"></textarea>
+    </div>
+    <div class="control text-center">
+      <input type="hidden" name="_next" value="//kirkm.ca/messsage-received">
+      <input type="text" name="_gotcha" style="display:none;">
+      <button type="submit">Send Message</button>
+    </div>
+  </form>
 
 </div>

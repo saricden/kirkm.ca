@@ -37,3 +37,56 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
+
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+
+  .control {
+    flex-basis: 100%;
+    box-sizing: border-box;
+    padding: $item-gutter;
+
+    label {
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      color: #222;
+    }
+    input,
+    textarea {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: $ui-pad;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    button {
+      display: inline-block;
+      box-sizing: border-box;
+      padding: $ui-pad;
+      background-color: rgba(12, 142, 218, 0.9);
+      color: #FFF;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      border: 0;
+    }
+  }
+  .control:nth-of-type(1) {
+    padding-top: 0;
+  }
+  .control.half {
+    flex-basis: 50%;
+  }
+  .control.half:nth-of-type(2) {
+    padding-top: 0;
+  }
+}

@@ -34,3 +34,17 @@
     padding-right: $item-gutter;
   }
 }
+
+a.btn {
+  display: inline-block;
+  padding: $ui-pad;
+  margin: $item-gutter;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a.btn.glass {
+  border: solid 1px #FFF;
+  color: #FFF;
+  background-color: transparent;
+}
