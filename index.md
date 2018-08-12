@@ -34,7 +34,7 @@ isHome: true
 
   <h2>Projects I've Worked On</h2>
   <div class="slideshow">
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/serious.jpg" | relative_url }});">
           <header>
             <h3>Serious Coffee</h3>
@@ -43,7 +43,7 @@ isHome: true
           </header>
         </div>
       </a>
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/skateview.jpg" | relative_url }});">
           <header>
             <h3>Skateview</h3>
@@ -51,7 +51,7 @@ isHome: true
           </header>
         </div>
       </a>
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/golf-canada.jpg" | relative_url }});">
           <header>
             <h3>Golf Canada</h3>
@@ -61,7 +61,7 @@ isHome: true
       </a>
   </div>
   <div class="slideshow">
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/designstor.jpg" | relative_url }});">
           <header>
             <h3>Designstor</h3>
@@ -69,7 +69,7 @@ isHome: true
           </header>
         </div>
       </a>
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/fbn.jpg" | relative_url }});">
           <header>
             <h3>Feeling Better Now</h3>
@@ -77,7 +77,7 @@ isHome: true
           </header>
         </div>
       </a>
-      <a href="" class="slide">
+      <a class="slide">
         <div style="background-image:linear-gradient(rgba(12, 142, 218, 0.7), rgba(12, 142, 218, 0.7)), url({{ "/assets/screenshots/pmr.jpg" | relative_url }});">
           <header>
             <h3>PMRobot</h3>
