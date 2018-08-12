@@ -225,7 +225,7 @@ isHome: true
       <textarea id="contact_message" name="message"></textarea>
     </div>
     <div class="control text-center">
-      <input type="hidden" name="_next" value="//kirkm.ca/messsage-received">
+      <input type="hidden" name="_next" value="//kirkm.ca/message-received">
       <input type="text" name="_gotcha" style="display:none;">
       <button type="submit">Send Message</button>
     </div>
