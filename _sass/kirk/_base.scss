@@ -90,3 +90,9 @@ form {
     padding-top: 0;
   }
 }
+
+footer {
+  box-sizing: border-box;
+  padding: $item-gutter * 2;
+  background-color: #EEE;
+}
